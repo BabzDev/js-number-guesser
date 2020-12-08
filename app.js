@@ -25,7 +25,7 @@ guessBtn.addEventListener("click", function () {
 
 
 function generateWinningNumber(){
-    winningNum = Math.round(Math.random()*10);
+    winningNum = Math.round(Math.random()*10 + 1);
 }
 
 function playTheGame() {
